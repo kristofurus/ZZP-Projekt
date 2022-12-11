@@ -1,0 +1,242 @@
+body {
+	background-image: url(matrix1.jpeg);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+    background-color: white;
+	font-family: sans-serif;
+	color: white;
+
+}
+
+big {
+  font-size: 24px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: #8eadff;
+  border: 2px dashed #ffffff;
+  padding: 15px 50px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#container {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#heading {
+	background-color: #8eadff;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 190px;
+}
+
+#heading_left {
+	float: left;
+	padding: 20px;
+	text-align: center;
+	width: 177px;
+	border-right: 3px double black;
+}
+
+#heading_centre {
+    padding: 20px;
+	width: 900px;
+	font-size: 45px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+#menu {
+	float: left;
+	background-color: #8eadff;
+	margin-top: 20px;
+	padding: 15px;
+	width: 197px;
+	min-height: 620px;
+	text-align: center;
+	border-right: 3px double black;
+    margin-left: auto;
+	height: 100%;
+    overflow:hidden;
+}
+
+.option {
+	float: center;
+	min-height: 25;
+	min-width: 25;
+	font-size: 20;
+	border-bottom: 3px double black;
+	padding: 10px;
+}
+
+.option:hover {
+	background-color: #608dff ;
+	cursor: pointer;
+}
+
+.option a {
+	color: white;
+	text-decoration: none;
+}
+
+#content {
+	float: left;
+	background-color: #608dff ;
+	margin-top: 20px;
+	width: 850px;
+	min-height: 650px;
+	text-align: center;
+	font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    overflow:hidden;
+}
+
+#content p {
+    text-indent: 0%;
+    font-size: 16px;
+    text-align: justify;
+    padding: 8px;
+    letter-spacing: 1px;
+		margin: 0;
+}
+
+#content li{
+	text-indent: 0%;
+	font-size: 16px;
+	text-align: justify;
+	padding: 8px;
+	letter-spacing: 1px;
+	margin: 0;
+}
+
+a {
+	text-indent: 0%;
+	font-size: 16px;
+	text-align: justify;
+	padding: 8px;
+	letter-spacing: 1px;
+	margin: 0;
+	color: white;
+  background-color: transparent;
+	text-decoration: none;
+}
+
+#content a {
+  color: #00008B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#content a:link {
+  color: #00008B;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+#content h2 {
+    text-indent: 0%;
+    font-size: 48px;
+    padding: 8px;
+		text-align: center;
+    letter-spacing: 1px;
+		margin: 0;
+}
+
+#content h3 {
+    text-indent: 0%;
+    font-size: 32px;
+    text-align: center;
+    padding: 8px;
+    letter-spacing: 1px;
+		margin: 0;
+}
+
+.smiley {
+	font-size: 100px;
+	margin: 0px;
+}
+
+.options {
+	float: center;
+	font-size: 50;
+	padding: 20px;
+}
+
+.options:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.options h4 {
+	color: white;
+	text-decoration: none;
+}
+
+#content h2 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.content h2:hover {
+    color: white;
+    cursor: progress;
+    background-color:  lightskyblue;
+}
+
+#footer {
+	float: left;
+	width: 1080px;
+	background-color: #8eadff;
+	margin-top: 40px;
+	text-align: center;
+	margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.mecze h1 {
+    color:lightskyblue;
+    margin-top: 50px;
+}
+
+.table {
+    width:100%;
+    border: none;
+    color: white;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: lightskyblue;
+}
+
+.terminarz h5 {
+    color: lightskyblue;
+}
+
+.wrapper {
+    margin-top: 40px;
+    width:800px;
+    padding-bottom: 40px;
+}
+
+textarea {
+    width:300px;
+    height:50px;
+    background-color: white;
+    resize:none;
+}

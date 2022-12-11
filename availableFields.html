@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="Stylesheet" type="text/css" href="styles.css" />
+  <title>Kandydaci</title>
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="heading">
+      <div id="heading_left">
+        <a href="index.html"><img src="eiti_main_logo.png" width="150px" height="150px" /></a>
+      </div>
+
+      <div id="heading_centre">
+        <b>DOSTĘPNE KIERUNKI</b>
+      </div>
+      <div style="clear:both;"></div>
+    </div>
+
+    <div id="menu">
+
+      <a href="index.html">
+        <div class="option">
+          <h3>Strona Główna</h3>
+        </div>
+      </a>
+      <a href="aktualnosci.html">
+        <div class="option">
+          <h3>Aktualności</h3>
+        </div>
+      </a>
+      <a href="candidates.html">
+        <div class="option">
+          <h3>Kandydaci</h3>
+        </div>
+      </a>
+      <a href="availableFields.html">
+        <div class="option">
+          Dostępne kierunki
+        </div>
+      </a>
+      <a href="limits.html">
+        <div class="option">
+          Limity miejsc
+        </div>
+      </a>
+      <a href="recrutation.html">
+        <div class="option">
+          Sposób rekrutacji
+        </div>
+      </a>
+      <a href="students.html">
+        <div class="option">
+          <h3>Studenci</h3>
+        </div>
+      </a>
+      <a href="plan.html">
+        <div class="option">
+          Plan zajęć
+        </div>
+      </a>
+      <a href="harmonogram.html">
+        <div class="option">
+          Harmonogram semestru
+        </div>
+      </a>
+      <a href="wrs.html">
+        <div class="option">
+          WRS
+        </div>
+      </a>
+      <a href="contact.html">
+        <div class="option">
+          <h3>Kontakt</h3>
+        </div>
+      </a>
+      <a href="wladze.html">
+        <div class="option">
+          Władze
+        </div>
+      </a>
+      <a href="dziekanat.html">
+        <div class="option">
+          Dziekanat
+        </div>
+      </a>
+      <div style="clear:both;"></div>
+
+    </div>
+
+    <div id="content">
+      <h2>Interesują Ciebie nasze kierunki? Oto i one:</h2>
+      <br>
+      <ul>
+        <li><big><big><big>Automatyka i robotyka</big></big></big> - raj dla KAŻDEGO, kto chce robić automaty i roboty</li>
+        <li><big><big><big>Elektronika</big></big></big> - instalacje elektryczne, fotowoltaika, słupy wysokiego napięcia</li>
+        <li><big><big><big>Informatyka</big></big></big> - taka oraz inne strony internetowe – to będziesz umieć ✅</li>
+        <li><big><big><big>Inżynieria biomedyczna</big></big></big> - medycyna to nasze drugie imię</li>
+        <li><big><big><big>Telekomunikacja</big></big></big> - nauczysz się, jak sobie radzić z trudnymi rozmowami przez telefon</li>
+      </ul>
+
+      <p>
+        Prawda jest taka, że nie ma tu złego wyboru.
+        Dlatego nie staraj się oszukać przeznaczenia i skorzystaj z naszego
+        profesjonalnego narzędzia, które pomoże Ci wybrać Twoją drogę życiową!
+      </p>
+
+      <p>Wciśnij przycisk aby sprawdzić jaka przyszłość jest dla Ciebie idealna!</p>
+      <button id="field_btn" onclick="generator(this)">Wciśnij mnie!</button>
+      <p >Twoja idealna przyszłość to studia na kierunku: <big id="generated_field"></big> </p>
+
+      <br>
+      <img src="dostepne_kierunki.png" alt="Generator wyboru kierunku">
+      <br>
+      <img src="dostepne_kierunki1.png" alt="Generator wyboru kierunku">
+
+    </div>
+
+    <div id="footer">
+      &copy; 1998-2022 Politechnika Warszawska,
+      Wydział Elektroniki i Technik Informacyjnych, ul. Nowowiejska 15/19, 00-665 Warszawa
+    </div>
+
+  </div>
+</body>
+<script>
+function generator(element) {
+  // var items = ["Automatyka i robotyka", "Elektronika", "Informatyka", "Inżynieria biomedyczna", "Telekomunikacja", "Przykro nam 😥"]
+  var items = ["Niestety", "Przepraszamy 😥", "Przykro nam",
+  "Może następnym razem", "Holandia", "Norwegia", "jakiś humanistyczny",
+  "Automatyka i robotyka", "Elektronika", "Informatyka",
+  "Inżynieria biomedyczna", "Telekomunikacja"]
+  var item = items[Math.floor(Math.random()*items.length)];
+  document.getElementById('generated_field').innerHTML = item;
+}
+</script>
+</html>
