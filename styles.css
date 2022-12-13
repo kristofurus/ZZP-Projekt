@@ -1,9 +1,9 @@
 body {
-	background-image: url(matrix1.jpeg);
+	background-image: url(backgorund1.jpeg);
 	background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: white;
+  	background-attachment: fixed;
+  	background-size: cover;
+  	background-color: white;
 	font-family: sans-serif;
 	color: white;
 
@@ -28,7 +28,7 @@ button:hover {
 }
 
 #container {
-	width: 1100px;
+	width: 1300px;
 	min-height: 1100px;
 	margin-left: auto;
 	margin-right: auto;
@@ -52,7 +52,7 @@ button:hover {
 
 #heading_centre {
 	padding-top: 20px;
-	width: 900px;
+	width: 1000px;
 	font-size: 45px;
 	text-align: center;
 	margin-top: 40px;
@@ -96,7 +96,7 @@ button:hover {
 	float: left;
 	background-color: #608dff ;
 	margin-top: 20px;
-	width: 850px;
+	width: 1050px;
 	min-height: 1100px;
 	height: inherit;
 	text-align: center;
